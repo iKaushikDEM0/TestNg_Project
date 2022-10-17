@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9190" started-at="2022-09-26T03:55:07Z" finished-at="2022-09-26T03:55:17Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="3011" started-at="2022-09-26T03:55:07Z" finished-at="2022-09-26T03:55:10Z">
+      <class name="org.project.CrossBrowser">
+        <test-method status="PASS" signature="browsers(java.lang.String)[pri:0, instance:org.project.CrossBrowser@6adede5]" name="browsers" duration-ms="2995" started-at="2022-09-26T03:55:07Z" finished-at="2022-09-26T03:55:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsers -->
+      </class> <!-- org.project.CrossBrowser -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="3562" started-at="2022-09-26T03:55:10Z" finished-at="2022-09-26T03:55:14Z">
+      <class name="org.project.CrossBrowser">
+        <test-method status="PASS" signature="browsers(java.lang.String)[pri:0, instance:org.project.CrossBrowser@527740a2]" name="browsers" duration-ms="3560" started-at="2022-09-26T03:55:10Z" finished-at="2022-09-26T03:55:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsers -->
+      </class> <!-- org.project.CrossBrowser -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="2595" started-at="2022-09-26T03:55:14Z" finished-at="2022-09-26T03:55:17Z">
+      <class name="org.project.CrossBrowser">
+        <test-method status="PASS" signature="browsers(java.lang.String)[pri:0, instance:org.project.CrossBrowser@6536e911]" name="browsers" duration-ms="2593" started-at="2022-09-26T03:55:14Z" finished-at="2022-09-26T03:55:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsers -->
+      </class> <!-- org.project.CrossBrowser -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
